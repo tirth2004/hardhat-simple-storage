@@ -1,0 +1,42 @@
+console.log(`Deployed contract to: ${simpleStorage.target}`);
+  console.log(`Updated Value is: ${updatedValue}`)
+  const updatedValue = await simpleStorage.getFavouriteNumber()
+  await transactionResponse.wait(1)
+const transactionResponse = await simpleStorage.store(7)
+  console.log(`Current Value is: ${currentValue}`)
+  const currentValue = await simpleStorage.getFavouriteNumber();
+console.log("Getting fav number");
+  console.log("Deployed")
+  const simpleStorage = await SimpleStorageFactory.deploy()
+  console.log("Deploying contract...")
+const SimpleStorageFactory = await ethers.getContractFactory("SimpleStorage")
+console.log(curval)
+console.log(curva)
+let curval = await simpleStorage.getFavouriteNumber();
+const currentValue = await simpleStorage.getFavouriteNumber();
+console.log(`Updated Value is: ${updatedValue}`)
+const updatedValue = await simpleStorage.getFavouriteNumber()
+const transactionResponse = await simpleStorage.store(7)
+  console.log(`Current Value is: ${currentValue}`)
+const currentValue = await simpleStorage.getFavouriteNumber()
+await simpleStorage.getFavouriteNumber()
+simpleStorage
+const simpleStorage = await SimpleStorageFactory.deploy()
+console.log(SimpleStorageFactory)
+const SimpleStorageFactory = await ethers.getContractFactory("SimpleStorage")
+await simpleStorage.getFavouriteNumber();
+simpleStorage.getFavouriteNumber();
+await simpleStorage.store(59)
+console.log(cv);
+let cv = await simpleStorage.getFavouriteNumber(); 
+await tx.wait()
+const tx = await simpleStorage.store(100);
+const curVal = await simpleStorage.getFavouriteNumber()
+const currentValue = await simpleStorage.getFavouriteNumber()
+const currentValue = await simpleStorage.retrieve()
+const simpleStorage = await SimpleStorageFactory.deploy()
+const SimpleStorageFactory = await ethers.getContractFactory("SimpleStorage")
+await ethers.provider.getBlockNumber()
+ethers.getContractAt
+ethers
+config
