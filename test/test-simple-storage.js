@@ -26,4 +26,13 @@ describe("SimpleStorage", function() {
         const curValue = await simpleStorage.getFavouriteNumber();
         assert.equal(curValue.toString(), newFavNumber);
     })
+
+    it("get the fav number for the caller", async function (){
+        const favNumber = 69;
+        const person = "Tirth"
+        const tx = await simpleStorage.addPerson(favNumber, person);
+        await tx.wait(1);
+        const curValue = await simpleStorage.getFavNumberForPerson(person);
+        assert.equal(curValue.toString(), favNumber);
+    })
 })

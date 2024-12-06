@@ -2,6 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 const { vars } = require("hardhat/config");
 require("@nomicfoundation/hardhat-ethers");
 require("hardhat-gas-reporter");
+require("solidity-coverage");
 /** @type import('hardhat/config').HardhatUserConfig */
 
 
