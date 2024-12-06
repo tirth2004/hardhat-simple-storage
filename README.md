@@ -13,7 +13,7 @@ This project demonstrates a simple storage contract using Hardhat. The contract 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/hardhat-simple-storage.git
+    git clone https://github.com/tirth2004/hardhat-simple-storage
     ```
 2. Navigate to the project directory:
     ```sh
